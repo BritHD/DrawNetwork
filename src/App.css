@@ -1,0 +1,26 @@
+.HomePage{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(96, 96, 96);
+  overflow: hidden;
+}
+.SideBar{
+  background-color: rgb(215, 215, 215);
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+}
+.CanvasDiv{
+  width: 100%;
+  height: 100%;
+}
+#svgcontainer{
+  background-color: white;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
